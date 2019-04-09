@@ -1,0 +1,31 @@
+{
+  "name": "@fireflyopen/blockchains",
+  "version": "0.0.1",
+  "private": false,
+  "main": "dist/index.js",
+  "scripts": {
+    "compile": "tsc -b",
+    "clean": "shx rm -rf dist/*",
+    "format": "prettier --write '{.,src/**}/*.{js,jsx,ts,tsx}'",
+    "lint": "tslint -p .",
+    "prepare": "cd .. && yarn patch-package"
+  },
+  "dependencies": {
+    "web3": "1.0.0-beta.52",
+    "bitcoinjs-lib": "5.0.1",
+    "stellar-sdk": "0.15.0"
+
+
+  },
+  "devDependencies": {
+    "@types/web3":"1.0.18",
+    "@types/stellar-sdk": "0.11.1",
+    "@types/stellar-base": "0.10.2",
+    "prettier": "1.16.4",
+    "tslint": "5.14.0",
+    "tslint-config-airbnb": "5.11.1",
+    "tslint-config-prettier": "1.18.0",
+    "tslint-react": "3.6.0",
+    "typescript": "3.3.4000"
+  }
+}
