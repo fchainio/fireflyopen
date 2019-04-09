@@ -46,11 +46,6 @@
     "tslint-react": "3.6.0",
     "typescript": "3.3.4000"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "yarn workspace @fireflyopen/desktop compile && lint-staged"
-    }
-  },
   "lint-staged": {
     "*.{ts,tsx}": [
       "tslint --fix",
