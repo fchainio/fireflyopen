@@ -1,0 +1,23 @@
+{
+  "name": "@fireflyopen/browsers",
+  "version": "0.0.1",
+  "private": false,
+  "main": "dist",
+  "scripts": {
+    "compile": "tsc -b",
+    "clean": "shx rm -rf dist/*",
+    "format": "prettier --write '{.,src/**}/*.{js,jsx,ts,tsx}'",
+    "lint": "tslint -p .",
+    "prepare": "cd .. && yarn patch-package"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "ts-jest": "24.0.0",
+    "tslint": "5.14.0",
+    "tslint-config-airbnb": "5.11.1",
+    "tslint-config-prettier": "1.18.0",
+    "tslint-react": "3.6.0",
+    "typescript": "3.3.4000"
+  }
+}
