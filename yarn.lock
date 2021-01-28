@@ -1566,10 +1566,10 @@
   dependencies:
     "@types/node" "*"
 
-"@types/node@*":
-  version "11.13.2"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-11.13.2.tgz#dc85dde46aa8740bb4aed54b8104250f8f849503"
-  integrity sha512-HOtU5KqROKT7qX/itKHuTtt5fV0iXbheQvrgbLNXFJQBY/eh+VS5vmmTAVlo3qIGMsypm0G4N1t2AXjy1ZicaQ==
+"@types/node@*", "@types/node@^12.0.12":
+  version "12.12.56"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-12.12.56.tgz#83591a89723d8ec3eaf722137e1784a7351edb6c"
+  integrity sha512-8OdIupOIZtmObR13fvGyTvpcuzKmMugkATeVcfNwCjGtHxhjEKmOvLqXwR8U9VOtNnZ4EXaSfNiLVsPinaCXkQ==
 
 "@types/node@10.12.18":
   version "10.12.18"
@@ -1585,11 +1585,6 @@
   version "10.14.4"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-10.14.4.tgz#1c586b991457cbb58fef51bc4e0cfcfa347714b5"
   integrity sha512-DT25xX/YgyPKiHFOpNuANIQIVvYEwCWXgK2jYYwqgaMrYE6+tq+DtmMwlD3drl6DJbUwtlIDnn0d7tIn/EbXBg==
-
-"@types/node@^12.0.12":
-  version "12.12.56"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-12.12.56.tgz#83591a89723d8ec3eaf722137e1784a7351edb6c"
-  integrity sha512-8OdIupOIZtmObR13fvGyTvpcuzKmMugkATeVcfNwCjGtHxhjEKmOvLqXwR8U9VOtNnZ4EXaSfNiLVsPinaCXkQ==
 
 "@types/prop-types@*":
   version "15.7.0"
@@ -5150,10 +5145,10 @@ electron-updater@4.0.6:
     semver "^5.6.0"
     source-map-support "^0.5.9"
 
-electron@10.1.1:
-  version "10.1.1"
-  resolved "https://registry.yarnpkg.com/electron/-/electron-10.1.1.tgz#44ff9207afc9df253d3b5ea40c7e6513c5dc08d8"
-  integrity sha512-ZJtZHMr17AvvBosuA6XUmpehwAlGM4/n46Mw9BcyD8tpgdI6IQd0X5OU9meE3X3M8Y6Ja2Kr2udTMgtjvot2hA==
+electron@10.2.0:
+  version "10.2.0"
+  resolved "https://registry.yarnpkg.com/electron/-/electron-10.2.0.tgz#4b00f0907b28aca4b93661bb53ce9a4f8ad32201"
+  integrity sha512-GBUyq8dwUqXPkCTkoID+eZ5Pm9GFlLUd2eSoGe8UOaHeW68SgCf5t75/uGHraQ1OIz/0qniyH5M4ebWEHGppyQ==
   dependencies:
     "@electron/get" "^1.0.1"
     "@types/node" "^12.0.12"
