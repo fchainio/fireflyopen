@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "react": "16.8.4",
-    "react-native": "0.59.3",
+    "react-native": "0.62.3",
     "@fireflyopen/components": "0.0.1",
     "metro-react-native-babel-preset": "0.53.1",
     "react-native-inappbrowser-reborn": "2.0.0",
