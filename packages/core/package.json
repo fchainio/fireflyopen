@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "lodash": "4.17.21",
-    "moment": "2.24.0"
+    "moment": "2.29.2"
   },
   "devDependencies": {
     "@types/fbemitter": "2.0.32",
